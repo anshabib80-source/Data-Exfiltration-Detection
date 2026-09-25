@@ -139,7 +139,7 @@ The Wireshark analysis begins by filtering DNS traffic using:
 dns
 ```
 
-![DNS Traffic](./dns&frame.len.png)
+![DNS Traffic](./dns-frame.len.png)
 
 ### Evidence 2 — DNS Queries Without Responses
 
@@ -155,12 +155,12 @@ dns.flags.response == 0
 
 The following screenshot shows the Splunk analysis of DNS queries by source IP.
 
-![Splunk Source IP Analysis](./splunk analysis dns.png)
+![Splunk Source IP Analysis](./splunk-analysis-dns.png)
 ### Evidence 4 — Splunk DNS Query Analysis
 
 The following screenshot shows the analysis of DNS queries and their frequency in Splunk.
 
-![Splunk DNS Query Analysis](./splunk dns 2.png)
+![Splunk DNS Query Analysis](./splunk-dns2.png)
 
 ## 7. Defensive Perspective
 
