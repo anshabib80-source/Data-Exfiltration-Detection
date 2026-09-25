@@ -1,1 +1,0 @@
-# 🟠 FTP Exfiltration Analysis
